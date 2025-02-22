@@ -29,8 +29,8 @@ export default function Navbar() {
       <div className={`navbar-links flexbox ${menuOpen ? 'open' : ''}`}>
         <span onClick={() => navigate('/join')}>Join Us</span>
         <span onClick={() => navigate('/members')}>Members</span>
-        <span onClick={() => window.location.href = 'http://localhost:5173/#events'}>Event</span>
-        <span onClick={() => window.location.href = 'http://localhost:5173/#about'}>About</span>
+        <span onClick={() => window.location.href = 'https://ritishdas.github.io/coding_club/#events'}>Event</span>
+        <span onClick={() => window.location.href = 'https://ritishdas.github.io/coding_club/#about'}>About</span>
       </div>
     </div>
   );
