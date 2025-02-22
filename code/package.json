@@ -2,6 +2,7 @@
   "name": "coding_club",
   "private": true,
   "version": "0.0.0",
+  "homepage":"https://ritishdas.github.io/coding_club",
   "type": "module",
   "scripts": {
     "dev": "vite",
