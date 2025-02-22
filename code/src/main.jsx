@@ -8,7 +8,7 @@ import Footer from './components/footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <BrowserRouter basename="/coding_club">
+     <BrowserRouter >
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/join" element={<Join />} />
