@@ -6,7 +6,7 @@ export default function () {
 
     return (<div className='member-div'>
         <Nav />
-        <div className='member-main'>
+        <div className='member-main flexbox'>
         <h1>Our Team</h1>
         <h4>Meet the passionate leaders of our coding club.</h4>
 {keys.map((title, index) => {
@@ -17,14 +17,14 @@ export default function () {
                     <h4>{title}</h4>
                     <div className='flexbox'>{
                         data[title].map((content, index) => {
-                            return (<Member image="./vite.svg" name={content.name} title={content.title} />)
+                            return (<Member image={content.image} name={content.name} title={content.title} />)
                         })}
                     </div>
                 </div>
                 <div>
                     <h4>{keys[index + 1]}</h4>
                     <div className='flexbox'>{data[keys[index + 1]].map((content, index) => {
-                        return (<Member image="./vite.svg" name={content.name} title={content.title} />)
+                        return (<Member image={content.image} name={content.name} title={content.title} />)
                     })}
                     </div>
                 </div>

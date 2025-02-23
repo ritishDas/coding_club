@@ -5,6 +5,7 @@ import First from './components/first';
 import Second from './components/second';
 import Third from './components/third';
 import Fourth from './components/fourth';
+import event from './data/event.js'
 import './App.css'
 
 function App() {
@@ -21,15 +22,14 @@ function App() {
 <h1>Upcoming Events</h1>
 <div>//Our hackathon poster and details</div>
       <h1>Past Events</h1>
-<Third images={['./vite.svg','./vite.svg','./vite.svg',]}
-     name="Smart India Hackthon" date="Ahemdabad 2nd Feb 2:00 AM" details="This 
-     is a demo event page" logo="./vite.svg" id="third1"/>
-    <Third images={['./vite.svg','./vite.svg','./vite.svg',]}
-     name="Smart India Hackaton" date="Ahemdabad 2nd Feb 2:00 AM" details="This 
-     is a demo event page" logo="./vite.svg" id="third2"/>
-    <Third images={['./vite.svg','./vite.svg','./vite.svg',]}
-     name="Smart India Hakathon" date="Ahemdabad 2nd Feb 2:00 AM" details="This 
-     is a demo event page" logo="./vite.svg" id="third3"/>
+      {event.map(
+(data,index)=>{
+  console.log(data)
+  return(
+<Third images={data.images}
+     name={data.name} date={data.date} details={data.details} logo={data.logo} id={`third${index}`} key={index}/>
+  )
+ }) }
     </div>
     </>
     );
