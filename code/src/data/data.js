@@ -1,4 +1,4 @@
-export default
+﻿export default
     {
         Teacher: [
             { name: 'Dr. A. A. Jaiswal', title: 'HOD of Computer Science & Engineering', image:'./Jaiswal.jpg'}
@@ -14,7 +14,7 @@ export default
         ]
         , Treasurer: [
             { name: 'Amit Ghugal', title: 'Treasurer' ,image:'./vite.svg'}
-            , { name: 'Harshit Panchbulhe', title: 'Joint Treasurer',image:'./jtreasurer.png' }
+            , { name: 'Harshit Panchbudhe', title: 'Joint Treasurer',image:'./jtreasurer.png' }
         ]
         , Technical: [
             { name: 'Rasika Pande', title: 'Technical Head' ,image:'./vite.svg'}
@@ -25,7 +25,7 @@ export default
             , { name: 'Asmita Meshram', title: 'Joint Publicity Head',image:'./publicityhead.png' }
         ]
         , Sponser: [
-            { name: 'Karan Soyam', title: 'Sponser Head' ,image:'./vite.svg'}
+            { name: 'Karan Soyam', title: 'Sponser Head' ,image:'./karan.png'}
             , { name: 'Krishna Thakare', title: 'Joint Sponser Head' ,image:'./vite.svg'}
         ]
         , Event: [

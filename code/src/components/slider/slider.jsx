@@ -1,4 +1,4 @@
-﻿import {useRef,useEffect} from 'react';
+﻿/*import {useRef,useEffect} from 'react';
 import './slider.css';
 
 export default function({images,uid}){
@@ -57,4 +57,22 @@ return(<a href={`#sliderimage${ind}l${uid}`} key={ind}><span></span></a>);
     window.location.href=`#sliderimage${currentImage+1}l${uid}`}}>N</b></div>
 
   </div>);
+}
+*/
+
+export default function(props){
+  return(
+    <div  className="slider flexbox">
+      
+      <span onClick={()=>{props.fun(false)}}></span>
+      <div className="slider-main flexbox">
+          {props.images.map((curr,index)=>{
+          return(
+            <div key={index} className="flexbox"><img  src={curr}/></div>
+          )
+        })}
+      </div>
+      <span onClick={()=>{props.fun(false)}}></span>
+</div>
+  )
 }

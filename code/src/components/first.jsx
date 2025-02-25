@@ -3,6 +3,7 @@ import data from '../data/data.js'
 export default function(){
 return(
 <div className="first">
+  <h1>Our Teachers And President</h1>
 <div className = "flexbox">
   <Member image={data.Teacher[0].image} name={data.Teacher[0].name} title={data.Teacher[0].title}/>
   </div>

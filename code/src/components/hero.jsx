@@ -8,6 +8,7 @@ return(
   <div className = "hero-nav flexbox">
 <img src = './logo.png'/>
 <h1>Coding Club</h1>
+<img src = './cclogo.png'/>
   </div>
   <div className = "hero-hero flexbox">
 <Cwr/>

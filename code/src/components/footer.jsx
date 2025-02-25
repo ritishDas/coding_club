@@ -2,7 +2,7 @@ import {Link,useNavigate} from "react-router-dom"
 export default function(){
     const navigate = useNavigate();
     return(
-    <footer className="flexbox">
+    <footer >
     <div>
         <img src="./logo.png" onClick={()=>{window.location.href=("https://www.kdkce.edu.in/")}}/>
    <h1 onClick={()=>{navigate('/')}}>Coding<br/>Club</h1> 
