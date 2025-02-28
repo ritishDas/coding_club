@@ -1,5 +1,5 @@
 export default [
-    {images:['./fwc1.png','./fwc2.png','./fwc3.png','./fwc4.png','./fwc5.png','./fwc6.png'],
+    {images:['fwc1.png','./fwc2.png','./fwc3.png','./fwc4.png','./fwc5.png','./fwc6.png'],
         name:"Fun With Code",
         date:"CSE Seminar Hall 10 Jan 2025 3:30pm-5:30pm",
         details:"An interactive session with juniors where a quiz competetion was held ,A session on Git/Github with live demo and guidance",

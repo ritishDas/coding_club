@@ -9,7 +9,6 @@ import event from './data/event.js'
 import './App.css'
 import 'boxicons/css/boxicons.min.css';
 
-
 function App() {
   return(<>
     <Hero/>

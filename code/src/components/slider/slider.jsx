@@ -61,14 +61,15 @@ return(<a href={`#sliderimage${ind}l${uid}`} key={ind}><span></span></a>);
 */
 
 export default function(props){
-  return(
+  console.log(props.images);  
+return(
     <div  className="slider flexbox">
       
       <span onClick={()=>{props.fun(false)}}></span>
-      <div className="slider-main flexbox">
+      <div className="slider-main ">
           {props.images.map((curr,index)=>{
           return(
-            <div key={index} className="flexbox"><img  src={curr}/></div>
+            <div key={`slider${index}`} className="flexbox"><img  src={curr}/></div>
           )
         })}
       </div>
