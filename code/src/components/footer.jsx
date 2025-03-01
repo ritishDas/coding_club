@@ -4,7 +4,7 @@ export default function(){
     return(
     <footer >
     <div>
-        <img src="./logo.png" onClick={()=>{window.location.href=("https://www.kdkce.edu.in/")}}/>
+        <img src="./logo.jpg" onClick={()=>{window.location.href=("https://www.kdkce.edu.in/")}}/>
    <h1 onClick={()=>{navigate('/')}}>Coding<br/>Club</h1> 
     </div>
     <div>

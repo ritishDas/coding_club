@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="navbar-title flexbox">
         <img
           onClick={() => window.location.href = 'https://www.kdkce.edu.in/'}
-          src="./logo.png"
+          src="./logo.jpg"
           alt="Logo"
         />
         <div onClick={() => navigate('/')}> 

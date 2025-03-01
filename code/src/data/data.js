@@ -21,7 +21,7 @@
             , { name: 'Ritish Das', title: 'Joint Technical Head' ,image:'./ritish.png'}
         ]
         , Publicity: [
-            { name: 'Ankit Chiklande', title: 'Publicity Head',image:'./vite.svg' }
+            { name: 'Ankit Chiklande', title: 'Publicity Head',image:'./ankit.png' }
             , { name: 'Asmita Meshram', title: 'Joint Publicity Head',image:'./publicityhead.png' }
         ]
         , Sponser: [
@@ -30,6 +30,6 @@
         ]
         , Event: [
             { name: 'Rohit Sakharkar', title: 'Event Head',image:'./rohit.png' }
-            , { name: 'Sakshi Wagh', title: 'Joint Event Head' ,image:'./vite.svg'}
+            , { name: 'Sakshi Wagh', title: 'Joint Event Head' ,image:'./sakshi.png'}
         ]
     }

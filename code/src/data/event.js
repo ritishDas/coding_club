@@ -1,4 +1,5 @@
 export default [
+    
     {images:['fwc1.png','./fwc2.png','./fwc3.png','./fwc4.png','./fwc5.png','./fwc6.png'],
         name:"Fun With Code",
         date:"CSE Seminar Hall 10 Jan 2025 3:30pm-5:30pm",
@@ -18,4 +19,5 @@ export default [
         details:"A 2 player quiz and debugging competition themed on programming concepts",
         logo:"./techtrivia.png",
     }
+
 ]
