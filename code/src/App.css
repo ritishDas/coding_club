@@ -85,6 +85,7 @@ background:var(--hover);
 text-align:center;
 }
 .first>div{
+gap:50px;
 height:50%;
 }
 .firstseconddiv{
@@ -172,21 +173,18 @@ margin-top:50px;
 }
 .hero{
 width:100%;
-border:2px solid green;
 height:100vh;
 background:radial-gradient( var(--background),var(--button));
 position:relative;
 }
 .hero img{
 width:20vw;
-border:2px solid green;
 border-radius:50%;
 height:20vw;
 }
 .hero span{
   display:block;
 width:250px;
-border:2px solid green;
 font-size:1.2rem;
 height:0;
 color:var(--background);
@@ -203,7 +201,6 @@ cursor:pointer;
 }
 .hero-menu>div{
 justify-content:space-around;
-border:2px solid green;
 width:50%;
 }
 .cwr{
@@ -249,6 +246,7 @@ flex-wrap:wrap;
   flex-shrink: 0;
 color:var(--background);
 width:45%;
+min-width: 200px;
 padding:20px;
 flex-direction: column;
 background:radial-gradient( var(--hover),var(--font));

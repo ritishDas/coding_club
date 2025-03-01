@@ -21,6 +21,7 @@ export default function () {
                         })}
                     </div>
                 </div>
+                {index+1!=keys.length&&
                 <div>
                     <h4>{keys[index + 1]}</h4>
                     <div className='flexbox'>{data[keys[index + 1]].map((content, index) => {
@@ -28,6 +29,7 @@ export default function () {
                     })}
                     </div>
                 </div>
+                }
             </div>)
         })}
         </div>

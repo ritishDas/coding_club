@@ -1,19 +1,23 @@
 ﻿export default
     {
+        College: [
+            { name: 'Dr. Valsson Varghese', title: 'Principle', image: './principle.jpg' },
+            { name: 'Dr. Avinash M. Badar', title: 'Vice Principle', image: './viceprinciple.jpg' },
+        ],
         Teacher: [
-            { name: 'Dr. A. A. Jaiswal', title: 'HOD of Computer Science & Engineering', image:'./Jaiswal.jpg'}
-            , { name: 'Prof. A. M. Kuthe', title: 'Faculty In-charge' , image:'./kuthe.jpg'},
+            { name: 'Dr. A. A. Jaiswal', title: 'HOD of Computer Science & Engineering', image: './Jaiswal.jpg' }
+            , { name: 'Prof. A. M. Kuthe', title: 'Faculty In-charge', image: './kuthe.jpg' },
         ],
         President: [
             { name: 'Aparna Badhe', title: 'President', image:'./aparna.png'}
-            , { name: 'Anisha Gurumukhi', title: 'Vice President',image:'./vite.svg' }
+            , { name: 'Anisha Gurumukhi', title: 'Vice President',image:'./anisha.png' }
         ],
         Secretary: [
             { name: 'Mohit Parteti', title: 'Secretary' ,image:'./mohit.png'}
             , { name: 'Aditi Badhe', title: 'Joint Secretary',image:'./aditi.png' }
         ]
         , Treasurer: [
-            { name: 'Amit Ghugal', title: 'Treasurer' ,image:'./vite.svg'}
+            { name: 'Amit Ghugal', title: 'Treasurer' ,image:'amit.png'}
             , { name: 'Harshit Panchbudhe', title: 'Joint Treasurer',image:'./jtreasurer.png' }
         ]
         , Technical: [

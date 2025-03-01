@@ -7,7 +7,7 @@ import Members from './pages/members'
 import Footer from './components/footer.jsx'
 
 createRoot(document.getElementById('root')).render(
-     <BrowserRouter basename='/coding_club/' >
+     <BrowserRouter basename='/coding_club/'>
   <StrictMode>
       <Routes>
         <Route path="/" element={<App />} />
