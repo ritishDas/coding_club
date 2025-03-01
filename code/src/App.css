@@ -87,6 +87,7 @@ text-align:center;
 .first>div{
 gap:50px;
 height:50%;
+flex-wrap:wrap;
 }
 .firstseconddiv{
 justify-content:space-around;
@@ -483,7 +484,7 @@ width:100%;
     top: 80px;
     right: 0;
     width: 100%;
-    background: #99582a;
+    background: var(--seperator);
     padding: 1rem;
     text-align: center;
   }
